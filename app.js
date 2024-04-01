@@ -3,7 +3,7 @@ tg.expand();
 tg.MainButton.show()
 tg.MainButton.textColor = '#FFFFFF';
 tg.MainButton.color = '#389a6b';
-tg.MainButton.setText(""+price()+"р");
+
 
 let item = "";
 
@@ -64,9 +64,6 @@ else{
 
 
 
-function price() {
-  return am1*100+am2*100+am3*100+am4*100+am5*100;
-}
 
 
 btn1p.addEventListener("click", function(){
@@ -174,7 +171,10 @@ btn5m.addEventListener("click", function(){
 	}
 });
 
-
+tg.MainButton.setText(""+price()+"р");
+function price() {
+  return am1*100+am2*100+am3*100+am4*100+am5*100;
+}
 
 Telegram.WebApp.onEvent('mainButtonClicked', function(){
 	am1 = Number(localStorage.getItem("am1"));
