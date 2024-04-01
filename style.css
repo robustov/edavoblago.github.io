@@ -1,0 +1,131 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	color: var(--tg-theme-text-color);
+	background: var(--tg-theme-bg-color);
+}
+
+.name {
+	margin: 0px;
+}
+
+.price {
+	line-height: 0.2;
+}
+
+.container {
+	max-width: 0px;
+	max-height: 0px;
+}
+
+.inner {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 250px 250px 250px;
+	margin-left: auto; 
+	margin-right: 0;
+}
+
+.img {
+	width: 120px;
+	z-index: 2;
+	height: 120px;
+	border-radius: 30px;
+}
+.counters {
+	position: absolute;
+	right: -10px;
+	z-index: 5;
+	top: 13px;
+	font-size: 17px;
+	color: black;
+	color: rgb(52,151,104);
+}
+
+.flower {
+	position: absolute;
+	max-width: 40px;
+	top: 15px;
+	right: -15px;
+	z-index: 1;
+	color: black;
+
+}
+
+.counter {
+	position: absolute;
+	top: -20px;
+	right: -150px;
+	color: rgb(52,151,104);
+}
+
+.iteml {
+	text-align: center;
+	position: relative;
+	left: 0px;
+	color: var(--tg-theme-text-color);
+}
+
+.itemr {
+	text-align: center;
+	position: relative;
+	right: -50px;
+	color: var(--tg-theme-text-color);
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	border: none;
+	background: rgb(52,151,104);
+	border-radius: 10px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	transition: background .2s linear;
+}
+
+
+
+.usercard {
+	text-align: center;
+
+}
+
+.inputs {
+	text-align: center;
+	border: 2px solid rgb(52,151,104); 
+	border-radius: 3px; 
+	-webkit-border-radius: 3px; 
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	background: var(--tg-theme-bg-color);
+	outline: none;
+	height: 24px;
+	width: 300px;
+	color: var(--tg-theme-text-color);
+	font-size: 13px;
+	font-family: Tahoma;
+	margin: 15px;
+
+}
+
+
+.container {
+   border: 1px solid #cccccc; 
+   border-radius: 3px; 
+   -webkit-border-radius: 3px; 
+   -moz-border-radius: 3px;
+   -khtml-border-radius: 3px;
+   background: #ffffff !important;
+   outline: none;
+   height: 24px;
+   width: 120px;
+   color: #cccccc;
+   font-size: 11px;
+   font-family: Tahoma;
+   margin: 30px;
+}
+
+
