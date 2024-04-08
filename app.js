@@ -173,7 +173,7 @@ btn5m.addEventListener("click", function(){
 
 tg.MainButton.setText(""+price()+"р");
 function price() {
-  return am1*100+am2*100+am3*100+am4*100+am5*100;
+  return am1*110+am2*60+am3*60+am4*80+am5*100;
 }
 
 Telegram.WebApp.onEvent('mainButtonClicked', function(){
